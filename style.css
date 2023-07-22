@@ -1,0 +1,241 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+nav{
+
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
+
+#al{
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+#main{
+    background-color: red !important;
+    width: 100%;
+    height: 100vh !important;
+    border: 2px solid blue;
+    background-image: url(./images/asset\ 59.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /* justify-content: space-around !important; */
+    
+
+}
+
+#left{
+    
+
+   width: 50%;
+   height: 560px;
+ 
+}
+
+#bott{
+
+   width: 700px;
+   height: 560px;
+
+}
+
+#right{
+  margin-left: 10% !important;
+  width: 50%;
+  height: 560px;
+  
+
+}
+
+
+@media (max-width:1040px) {
+  #main{
+    width: 100% !important;
+    height: auto  !important;
+        flex-direction: column-reverse !important;
+        /* flex-wrap: wrap !important; */
+        /* display: none !important; */       
+        
+        }  
+
+    #left{
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+
+    #right{
+      width:  100% !important;
+      height: 100vh !important;
+      justify-content: center !important;
+      text-align:  center !important;
+      
+
+    }
+}
+@media (max-width:800px) {
+  #left{
+    width: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #right{
+    width:  auto !important;
+    height: 100vh !important;
+    justify-content: center !important;
+    text-align:  center !important;
+    
+
+
+  }
+
+
+
+}
+
+
+#mu{
+
+  color: white;
+  font-size: 35px;
+  
+
+}
+
+#cur1{
+
+width: 450px;
+height: 110px;
+border: 2px solid black;
+border-radius: 50px;
+background-color: white;
+
+}
+
+#unl{
+
+  color: blue;
+  font-size: 90px;
+  text-align: center;   
+}
+
+#ap{
+ 
+color: white;
+font-size: 65px;
+      
+}
+
+#up{
+
+  color: white;
+  font-size: 40px;
+
+}
+
+#cur2{
+
+   width: 140px;
+   height: 50px;
+   border-radius: 50px;
+   background-color: white;
+   margin-left: 338px;
+   margin-top: -60px;
+}
+
+#free{
+
+
+    color: blue;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+#ep{
+
+    color: white;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+#btn1{
+    color:white;
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#para{
+
+    color: white;
+    font-size:x-small;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
